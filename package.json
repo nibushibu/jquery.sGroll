@@ -1,0 +1,43 @@
+{
+  "name": "my-boilerplate",
+  "version": "0.0.0",
+  "description": "my HTML boilerplate",
+  "main": "Gruntfile.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Genki Katsutani",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-bower": "*",
+    "gulp-coffee": "*",
+    "gulp-compass": "*",
+    "gulp-concat": "*",
+    "gulp-consolidate": "*",
+    "gulp-minify-css": "*",
+    "gulp-plumber": "*",
+    "gulp-pngmin": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "lodash": "*",
+    "run-sequence": "*"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nibushibu/Getup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nibushibu/Getup/issues"
+  },
+  "homepage": "https://github.com/nibushibu/Getup"
+}

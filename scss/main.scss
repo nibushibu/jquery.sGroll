@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+@import "compass";
+@import "normalize";
+@import "ceaser-easing";
+
+.item-1 {
+  margin-top: 500px;
+}
+
+.item-2 {
+  margin: 2000px 0 1000px;
+}
+
+.item {
+  transition: all 1s;
+  transform: scale(0);
+  opacity: 0;
+  
+  &.is-sgrolled {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
